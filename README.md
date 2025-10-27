@@ -26,5 +26,6 @@ Whether you’re a student, hobbyist, or someone just starting out with electron
 4. IR sensor Module.
 5. Potentiometer.
 6. Breadboard and Jumper Wires.
-  # NOTE: If the aforementioned components are not available, you can also simulate all the projects of Wokwi - and excellent Arduino simulator that lets you build and test circuits virtually. 
-ENJOY LEARNING!!!
+  # NOTE: If the aforementioned components are not available, you can also simulate all the projects on Wokwi - and excellent Arduino simulator that lets you build and test circuits virtually. 
+
+# ENJOY LEARNING!!!
