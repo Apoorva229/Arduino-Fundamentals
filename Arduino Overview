@@ -1,2 +1,17 @@
 Every innovation begins with understanding its core, and in the world of embedded systems Arduino is the core. Arduino is the microcontroller board that functions as the brain of the project.
-It processes input from sensors, makes decisions based on your code and controls various components accordingly. 
+It processes input from sensors, makes decisions based on your code and controls various components accordingly.  
+Arduino consists of the following main components:
+1.Microcontroller : This is the main controller and fundamental unit of arduino board. It is a small, programmable integrated circuit that
+controls all the operations of the board. In most of Arduino boards, such as the Arduino UNO the microcontroller is ATmega328P. It is responsible for storing and executing the code that the user uploads through the Arduino IDE.
+The microcontroller reads inputs from sensors, processes them according to programmed code and then sends outputs. In a nutshell, it acts as a miniature computer that handles the fundamental functions
+according to which functions have to be completed.
+2. USB to serial chip: The USB to Serial Chip is a necessary component as it facilitates to translate data uploaded from the computer to the microcontroller.
+3. USB Port: The USB Port is used to connect the Arduino board to the computer.
+4. Power Pins: The Arduino board consists of two types of power pins The 3.3V and 5V pins. These are used to power the external components such as motors,LEDs etc.
+5. GND Pin: The GND pin also known as Negative or Ground pin. This has 0 Voltage level and is used to complete the circuit.
+6. Digital Pins: These are the input and output pins that are used to read and send digital signals. There are two types of digital signals 
+(HIGH/LOW) or (1/0), where HIGH corresponds to ON and LOW corresponds to OFF. These pins allow the Arduino board to interact with the external electric components like LEDs, sensors, buttons, motots etc.
+For example: when a button is pressed the digital pin reads the signal as HIGH and otherwise reads as LOW. 
+In most Arduino board such as Arduino UNO, there are 14 digital pins numbered from 0 - 13. Some of these pins have special functions such as the pins 0 and 1 are used for serial communtication.
+The pins 3,5,6,9,10,11 can provide PWM(Pulse Width Modulation) output, allowing analog like control of devices such as LEDs, motors etc.
+7. Analog Pins: 
