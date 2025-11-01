@@ -14,4 +14,10 @@ according to which functions have to be completed.
 For example: when a button is pressed the digital pin reads the signal as HIGH and otherwise reads as LOW. 
 In most Arduino board such as Arduino UNO, there are 14 digital pins numbered from 0 - 13. Some of these pins have special functions such as the pins 0 and 1 are used for serial communtication.
 The pins 3,5,6,9,10,11 can provide PWM(Pulse Width Modulation) output, allowing analog like control of devices such as LEDs, motors etc.
-7. Analog Pins: 
+7. Analog Pins: These are used to measure analog signals, which are signals that vary continuosly between 0V and 5V. Unlike digital pins
+that can only detect ON and OFF, analog pins can detect many levels between these two extremes. Arduino has analog to digital converter 
+inside the microcontroller. On most Arduino boards, it's a 10 bit ADC meaning the input voltage (0V-5V) is converted into a number 0 - 1023.
+You can read this value in your code using the command :
+int sensorValue = analogRead(A0); where the value of pin can changed according to which pin the sensor is connected. 
+8. VIN : VIN stands for voltage in, you can connect external supplies in this pin. 
+
